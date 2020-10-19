@@ -1,1 +1,1 @@
-console.log("testing");
+(()=>{"use strict";!function(){const t=document.getElementById("container"),e=document.createElement("img");e.src="package.png",e.setAttribute("style","width:100px;height:100px;"),t.appendChild(e)}()})();

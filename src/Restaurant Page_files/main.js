@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){document.getElementById("container"),console.log(content);const e=document.createElement("img");e.src="package.png",content.appendChild(e)}()})();
