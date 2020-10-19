@@ -2,6 +2,8 @@ import createHomePage from './homeContents.js';
 import createAboutPage from './aboutPage.js';
 import createContactPage from './contactPage.js';
 
+
+
 function createTabs(){
   const tabNames = ["Home", "About", "Contact"]
   const container = document.getElementById('container');
@@ -11,10 +13,20 @@ function createTabs(){
     const tabDiv = document.createElement('div');
     tabDiv.innerHTML = tab;
     tabDiv.classList.add("tab");
+
+    tabDiv.addEventListener('click',  function renderPage(e){
+      console.log(tab);
+    }, false);
+
     tabs.appendChild(tabDiv);
   }
   container.appendChild(tabs);
 }
+
+
+
+
+
 
 
 createTabs();
